@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:myapploginandsignup/pages/home_page.dart';
+import 'package:myapploginandsignup/pages/login_page.dart';
 import 'package:myapploginandsignup/pages/signup_page.dart';
 
 void main() => runApp(MyApp());
-
-String myname = "";
 
 class MyApp extends StatelessWidget {
   @override
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
 
       routes: {
         '/': (context) => HomePage(),
-        // '/login': (context) => LoginPage(),
+        '/login': (context) => LoginPage(),
         '/signup': (context) => SignupPage(),
       },
     );
