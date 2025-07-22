@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapploginandsignup/pages/signup_page.dart';
+import 'package:myapploginandsignup/pages/preLogin/signup_page.dart';
 
 class HomePage extends StatelessWidget {
   final double avatarRadius = 60;
@@ -49,6 +49,16 @@ class HomePage extends StatelessWidget {
                 ElevatedButton(
                   onPressed: () => Navigator.pushNamed(context, '/signup'),
                   child: Text("signup"),
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(horizontal: 60, vertical: 18),
+                    backgroundColor: Colors.white60,
+                  ),
+                ),
+                SizedBox(height: 20),
+
+                ElevatedButton(
+                  onPressed: () => Navigator.pushNamed(context, '/login'),
+                  child: Text("login"),
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.symmetric(horizontal: 60, vertical: 18),
                     backgroundColor: Colors.white60,

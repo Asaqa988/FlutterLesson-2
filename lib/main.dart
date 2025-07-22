@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:myapploginandsignup/pages/home_page.dart';
-import 'package:myapploginandsignup/pages/login_page.dart';
-import 'package:myapploginandsignup/pages/signup_page.dart';
+import 'package:myapploginandsignup/pages/postLogin/HomeAfterLogin.dart';
+import 'package:myapploginandsignup/pages/postLogin/Lecture_detail_page.dart';
+import 'package:myapploginandsignup/pages/preLogin/home_page.dart';
+import 'package:myapploginandsignup/pages/preLogin/login_page.dart';
+import 'package:myapploginandsignup/pages/preLogin/signup_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +17,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
 
       routes: {
-        '/': (context) => HomePage(),
+        '/': (context) => HomeAfterLogin(),
+        // '/': (context) => HomePage(),
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignupPage(),
       },
