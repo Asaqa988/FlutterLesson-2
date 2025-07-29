@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapploginandsignup/pages/postLogin/HomeAfterLogin.dart';
-import 'package:myapploginandsignup/pages/postLogin/StudentManagement.dart';
+import 'package:myapploginandsignup/pages/postLogin/StudentManagementPage.dart';
 import 'package:myapploginandsignup/pages/preLogin/home_page.dart';
 import 'package:myapploginandsignup/pages/preLogin/login_page.dart';
 import 'package:myapploginandsignup/pages/preLogin/signup_page.dart';
